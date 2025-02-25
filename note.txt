@@ -1,0 +1,20 @@
+user input 
+
+from list of item
+
+read either its retur or koreksi
+
+try to substring each per item
+
+after that get the item id using this api 
+https://api.jubelio.com/inventory/items/by-sku/{sku} 
+this should return a few of item id of all variation of the item
+
+return all the outstanding adjustments from all item listed
+
+wait for user confirmation
+
+Make adjustment using this api
+https://api.jubelio.com/inventory/adjustments/
+
+commit done
